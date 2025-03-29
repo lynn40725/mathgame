@@ -865,6 +865,7 @@ Scene_NameKeyboard.prototype.start = function () {
         this._textField.addEventListener("compositionstart", this._onTextFieldCompositionStart.bind(this));
         this._textField.addEventListener("compositionend", this._onTextFieldCompositionEnd.bind(this));
         this._textField.addEventListener("keyup", this._onTextFieldKeyUp.bind(this));
+       
     };
 
     Window_Base.prototype._onAdded = function () {

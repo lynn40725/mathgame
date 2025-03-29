@@ -95,7 +95,7 @@ GoogleSheetLogger.parameters = PluginManager.parameters('GoogleSheetLogger');
     Logger.enabled = true;
 
     // 設定您的 Apps Script 網址 (網頁應用程式 URL)
-    Logger.logUrl = "https://script.google.com/macros/s/AKfycbxZurkqITyYJdz_5K4ctHFt85rY14Bf8CTkd6mQPKv_9GFdfB9qxW20fSa5h7zR6OQX/exec";
+    Logger.logUrl = "https://script.google.com/macros/s/AKfycbxK_QZyUezh_NYUhf6WSDevJRe-p-GxjPNHa6YRiy2zaMmZNXBorHMTQ2eIfWqnd9EF/exec";
 
     // 初始化
     Logger.startTime = null;

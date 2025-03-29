@@ -1,11 +1,11 @@
 [
 null,
 {"id":1,"expanded":true,"name":"測試地圖","order":1,"parentId":0,"scrollX":1092,"scrollY":598},
-{"id":2,"expanded":true,"name":"開始遊戲","order":2,"parentId":0,"scrollX":1092,"scrollY":598},
+{"id":2,"expanded":true,"name":"開始遊戲","order":2,"parentId":0,"scrollX":1080.6666666666667,"scrollY":586.6666666666666},
 {"id":3,"expanded":false,"name":"2","order":5,"parentId":4,"scrollX":1070,"scrollY":602.6666666666666},
 {"id":4,"expanded":true,"name":"gamemode1","order":4,"parentId":2,"scrollX":1080.6666666666667,"scrollY":586.6666666666666},
 {"id":5,"expanded":true,"name":"gamemode2","order":9,"parentId":2,"scrollX":1080.6666666666667,"scrollY":586.6666666666666},
-{"id":6,"expanded":false,"name":"學校教室","order":3,"parentId":2,"scrollX":757.3333333333334,"scrollY":586.6666666666666},
+{"id":6,"expanded":false,"name":"學校教室","order":3,"parentId":2,"scrollX":1080.6666666666667,"scrollY":586.6666666666666},
 {"id":7,"expanded":false,"name":"3","order":6,"parentId":4,"scrollX":1070,"scrollY":602.6666666666666},
 {"id":8,"expanded":false,"name":"4","order":7,"parentId":4,"scrollX":1070,"scrollY":613.3333333333334},
 {"id":9,"expanded":false,"name":"G2_2","order":10,"parentId":5,"scrollX":1070,"scrollY":602.6666666666666},
