@@ -3,7 +3,6 @@
 var $plugins =
 [
 {"name":"AudioUnlock","status":true,"description":"✅ 強制解鎖 Edge / Safari / iOS 上的音訊播放，解決 BGM、SE 無聲問題（包含 iOS 特化修正）v3","parameters":{}},
-{"name":"YEP_MessageCore","status":true,"description":"v1.19 Adds more features to the Message Window to customized\nthe way your messages appear and functions.","parameters":{"---General---":"","Default Rows":"4","Default Width":"Graphics.boxWidth","Face Indent":"Window_Base._faceWidth + 24","Fast Forward Key":"pagedown","Enable Fast Forward":"true","Word Wrapping":"false","Description Wrap":"false","Word Wrap Space":"false","Tight Wrap":"false","---Font---":"","Font Name":"GameFont","Font Name CH":"SimHei, Heiti TC, sans-serif","Font Name KR":"Dotum, AppleGothic, sans-serif","Font Size":"30","Font Size Change":"12","Font Changed Max":"96","Font Changed Min":"12","Font Outline":"4","Maintain Font":"false","---Name Box---":"","Name Box Buffer X":"-28","Name Box Buffer Y":"0","Name Box Padding":"this.standardPadding() * 4","Name Box Color":"0","Name Box Clear":"false","Name Box Added Text":"\\c[6]","Name Box Auto Close":"false"}},
 {"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"20","screenWidth":"1280","screenHeight":"720","changeWindowWidthTo":"1920","changeWindowHeightTo":"1080","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"AltMenuScreen","status":true,"description":"Alternative menu screen layout.","parameters":{}},
 {"name":"GoogleSheetLogger","status":true,"description":"Integrates Google Sheet Logging for RPG Maker MV.\r\nLogs player actions, results, and execution times automatically.","parameters":{}},
@@ -12,8 +11,9 @@ var $plugins =
 {"name":"CustomBattlePlugin","status":true,"description":"Modify Battle Mode to Handle Negative HP with Recovery","parameters":{}},
 {"name":"PlayerDataFix","status":true,"description":"顯示玩家資訊插件 - 顯示玩家的詳細數值如HP、MP、攻擊力、防禦力等，支持開關控制暴擊資訊。","parameters":{"ShowCriticalInfoSwitch":"5"}},
 {"name":"YEP_EventMiniLabel","status":true,"description":"v1.12 Creates miniature-sized labels over events to allow\nyou to insert whatever text you'd like in them.","parameters":{"Default Show":"false","Minimum Width":"136","Font Size":"30","X Buffer":"0","Y Buffer":"36","Battle Transition":"false"}},
-{"name":"YEP_EventMiniLabel_fixed","status":true,"description":"在玩家頭上顯示可動態更新的文字標籤，基於 YEP_EventMiniLabel","parameters":{}},
+{"name":"YEP_EventMiniLabel_fixed","status":true,"description":"顯示玩家頭上可動態更新的標籤，並可透過 Show/HideMiniLabel 同步隱藏 (最終整合)","parameters":{}},
 {"name":"DynamicVideoPlayer","status":true,"description":"在地圖上播放影片，不影響 UI 和對話框，並確保無縫循環","parameters":{}},
 {"name":"MULI_WindowTextField","status":true,"description":"仿原生文字框輸入，運用透明<input>","parameters":{"window":"","defaultWidth":"480","minWidth":"240","maxWidth":"0","windowHeight":"0","textField":"","textFieldY":"0","textFieldAlign":"center","button":"","buttonImage":"TextFieldButton","buttonHeight":"48","buttonAlign":"center","buttonCancel":"","buttonCancelX":"0","buttonCancelWidth":"96","buttonOk":"","buttonOkX":"96","buttonOkWidth":"96","text":"","selectionColor":"","textAlign":"left","nameEdit":"","hideTable":"false"}},
-{"name":"For IOS keybord","status":true,"description":"[iOS] 修正Safari/Chrome鍵盤 + 全螢幕 + 音訊解鎖","parameters":{}}
+{"name":"For IOS keybord","status":true,"description":"[iOS] 修正Safari/Chrome鍵盤 + 全螢幕 + 音訊解鎖","parameters":{}},
+{"name":"CustomTimer","status":true,"description":"計時器插件：可自由開始/停止，結果存入指定變數","parameters":{}}
 ];
