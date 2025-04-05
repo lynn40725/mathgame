@@ -553,7 +553,7 @@ ConfigManager.readFlag = function(config, name) {
 ConfigManager.readVolume = function(config, name) {
     var value = config[name];
     if (value !== undefined) {
-        return Number(value).clamp(0, 100);
+        return Number(value).clamp(0, 20);
     } else {
         return 100;
     }
