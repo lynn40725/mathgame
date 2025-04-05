@@ -4,7 +4,6 @@ var $plugins =
 [
 {"name":"AudioUnlock","status":true,"description":"✅ 強制解鎖 Edge / Safari / iOS 上的音訊播放，解決 BGM、SE 無聲問題（包含 iOS 特化修正）v3","parameters":{}},
 {"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"20","screenWidth":"1280","screenHeight":"720","changeWindowWidthTo":"1920","changeWindowHeightTo":"1080","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"AltMenuScreen","status":true,"description":"Alternative menu screen layout.","parameters":{}},
 {"name":"GoogleSheetLogger","status":true,"description":"Integrates Google Sheet Logging for RPG Maker MV.\r\nLogs player actions, results, and execution times automatically.","parameters":{}},
 {"name":"BattleSkillWindow","status":true,"description":"戰鬥中技能視窗改為單欄、直向清單，並移至左側 (示範版)","parameters":{}},
 {"name":"show enemy","status":true,"description":"顯示敵人資訊插件 - 顯示敵人的詳細數值如HP、攻擊力、防禦力等，支持多個敵人顯示。","parameters":{"BarWidth":"120","ShowCriticalInfoSwitch":"5"}},
